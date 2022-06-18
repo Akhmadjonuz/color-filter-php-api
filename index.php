@@ -1,7 +1,6 @@
 <?php
 error_reporting(0);
 header('Content-Type: application/json');
-
 Function colorize($image)
 {
     $url = 'https://playback.fm/colorize-photo';
@@ -20,9 +19,7 @@ Function colorize($image)
     curl_setopt($ch, CURLOPT_POSTFIELDS, ["image" => $image, "xhr"=> "true"]);
     $response = curl_exec($ch);
     curl_close($ch);
-
     return $response;
-
 }
 
 $image = new CURLFILE("image.jpg"); // image location
