@@ -2,6 +2,7 @@
 # dadabayev.uz
 # +998902224311
 # telegram: @Akhmadjon
+# instagram: @Akhmadjon_dadabayev
 
 # Copyright reserved !
 # dadabayev.uz
